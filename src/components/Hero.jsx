@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { FaLinkedin, FaGithub, FaFacebook, FaTimes } from "react-icons/fa";
 import Modal from "react-modal";
-import myImage from "../assets/final2.png"; // Ensure the correct path
+import myImage from "../assets/dilum.png"; // Ensure the correct path
 import Technologies from "./Technologies";
-import CV from "../assets/Dilum_Andradi_CV.pdf";
+import CV from "../assets/DiumAndradi_CV.pdf";
 import { motion } from "framer-motion";
 
 Modal.setAppElement('#root'); // Set the root element for accessibility

@@ -41,7 +41,7 @@ const Navbar = () => {
           transition={{ duration: 0.8 }}
         />
         <motion.h3
-          className="text-2xl font-semibold ml-4 text-white"
+          className="text-2xl font-semibold ml-4 text-white hidden md:block"
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}

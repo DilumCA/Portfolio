@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { FaLinkedin, FaGithub, FaTwitter, FaBars, FaTimes } from 'react-icons/fa';
-import logo from '../assets/logo 01.png';
+import logo from '../../public/logo.png';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 

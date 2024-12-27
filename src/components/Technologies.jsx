@@ -1,89 +1,47 @@
 import React from 'react';
 import { RiReactjsLine } from 'react-icons/ri';
-import { TbBrandNextjs } from 'react-icons/tb';
-import { SiMongodb, SiSpring, SiMysql } from 'react-icons/si';
-import { FaNodeJs } from 'react-icons/fa';
+import { SiMongodb, SiSpring, SiMysql, SiHtml5, SiCss3, SiJavascript, SiBootstrap, SiMui, SiFigma, SiAdobephotoshop, SiAdobepremierepro, SiBlender, SiArduino, SiPostman } from 'react-icons/si';
+import { FaNodeJs, FaJava, FaGit, FaCuttlefish } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 
+const technologies = [
+  { name: 'Java', icon: <FaJava className='text-7xl' style={{ color: '#007396' }} /> },
+  { name: 'C', icon: <FaCuttlefish className='text-7xl' style={{ color: '#A8B9CC' }} /> },
+  { name: 'JavaScript', icon: <SiJavascript className='text-7xl' style={{ color: '#F7DF1E' }} /> },
+  { name: 'HTML', icon: <SiHtml5 className='text-7xl' style={{ color: '#E34F26' }} /> },
+  { name: 'CSS', icon: <SiCss3 className='text-7xl' style={{ color: '#1572B6' }} /> },
+  { name: 'ReactJS', icon: <RiReactjsLine className='text-7xl' style={{ color: '#61DAFB' }} /> },
+  { name: 'Bootstrap', icon: <SiBootstrap className='text-7xl' style={{ color: '#7952B3' }} /> },
+  { name: 'MUI', icon: <SiMui className='text-7xl' style={{ color: '#007FFF' }} /> },
+  { name: 'NodeJS', icon: <FaNodeJs className='text-7xl' style={{ color: '#339933' }} /> },
+  { name: 'SpringBoot', icon: <SiSpring className='text-7xl' style={{ color: '#6DB33F' }} /> },
+  { name: 'MongoDB', icon: <SiMongodb className='text-7xl' style={{ color: '#47A248' }} /> },
+  { name: 'MySQL', icon: <SiMysql className='text-7xl' style={{ color: '#4479A1' }} /> },
+  { name: 'Figma', icon: <SiFigma className='text-7xl' style={{ color: '#F24E1E' }} /> },
+];
+
+const containerVariants = {
+  animate: {
+    transition: {
+      staggerChildren: 0.2,
+    },
+  },
+};
+
+const itemVariants = {
+  animate: {
+    y: [0, -20, 0], // Move up and down
+    transition: {
+      y: {
+        repeat: Infinity,
+        repeatType: 'loop',
+        duration: 2,
+      },
+    },
+  },
+};
+
 const Technologies = () => {
-  const reactVariants = {
-    animate: {
-      y: [0, -10, 0], // Move up and down
-      transition: {
-        y: {
-          repeat: Infinity,
-          repeatType: 'loop',
-          duration: 2,
-        },
-      },
-    },
-  };
-
-  const nextjsVariants = {
-    animate: {
-      y: [0, -15, 0], // Move up and down
-      transition: {
-        y: {
-          repeat: Infinity,
-          repeatType: 'loop',
-          duration: 2.5,
-        },
-      },
-    },
-  };
-
-  const mongodbVariants = {
-    animate: {
-      y: [0, -12, 0], // Move up and down
-      transition: {
-        y: {
-          repeat: Infinity,
-          repeatType: 'loop',
-          duration: 2.2,
-        },
-      },
-    },
-  };
-
-  const springVariants = {
-    animate: {
-      y: [0, -8, 0], // Move up and down
-      transition: {
-        y: {
-          repeat: Infinity,
-          repeatType: 'loop',
-          duration: 1.8,
-        },
-      },
-    },
-  };
-
-  const nodejsVariants = {
-    animate: {
-      y: [0, -10, 0], // Move up and down
-      transition: {
-        y: {
-          repeat: Infinity,
-          repeatType: 'loop',
-          duration: 2.1,
-        },
-      },
-    },
-  };
-
-  const mysqlVariants = {
-    animate: {
-      y: [0, -14, 0], // Move up and down
-      transition: {
-        y: {
-          repeat: Infinity,
-          repeatType: 'loop',
-          duration: 2.3,
-        },
-      },
-    },
-  };
-
   const headingVariants = {
     initial: { opacity: 0, y: -20 },
     animate: {
@@ -107,50 +65,23 @@ const Technologies = () => {
         >
           Technologies
         </motion.h1>
-        <div className='flex flex-wrap items-center justify-center gap-4'>
-          <motion.div
-            className='rounded-2xl border-4 border-neutral-800 p-4'
-            variants={reactVariants}
-            animate="animate"
-          >
-            <RiReactjsLine className='text-7xl' style={{ color: '#61DAFB' }} />
-          </motion.div>
-          <motion.div
-            className='rounded-2xl border-4 border-neutral-800 p-4'
-            variants={nextjsVariants}
-            animate="animate"
-          >
-            <TbBrandNextjs className='text-7xl' style={{ color: '#ffffff' }} />
-          </motion.div>
-          <motion.div
-            className='rounded-2xl border-4 border-neutral-800 p-4'
-            variants={mongodbVariants}
-            animate="animate"
-          >
-            <SiMongodb className='text-7xl' style={{ color: '#47A248' }} />
-          </motion.div>
-          <motion.div
-            className='rounded-2xl border-4 border-neutral-800 p-4'
-            variants={springVariants}
-            animate="animate"
-          >
-            <SiSpring className='text-7xl' style={{ color: '#6DB33F' }} />
-          </motion.div>
-          <motion.div
-            className='rounded-2xl border-4 border-neutral-800 p-4'
-            variants={nodejsVariants}
-            animate="animate"
-          >
-            <FaNodeJs className='text-7xl' style={{ color: '#339933' }} />
-          </motion.div>
-          <motion.div
-            className='rounded-2xl border-4 border-neutral-800 p-4'
-            variants={mysqlVariants}
-            animate="animate"
-          >
-            <SiMysql className='text-7xl' style={{ color: '#4479A1' }} />
-          </motion.div>
-        </div>
+        <motion.div
+          className='flex flex-wrap items-center justify-center gap-4'
+          variants={containerVariants}
+          initial="initial"
+          animate="animate"
+        >
+          {technologies.map((tech, index) => (
+            <motion.div
+              key={index}
+              className='rounded-2xl border-4 border-neutral-800 p-4'
+              variants={itemVariants}
+            >
+              {tech.icon}
+              <p className='text-center mt-2'>{tech.name}</p>
+            </motion.div>
+          ))}
+        </motion.div>
       </div>
     </div>
   );

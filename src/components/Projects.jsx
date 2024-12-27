@@ -3,8 +3,9 @@ import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import Project_01 from "../assets/Project_01_IMS.jpg";
 import Project_02 from "../assets/Project_02_ttms.jpg.png";
-import Project_03 from "../assets/Project_03.jpg";
+import Project_03 from "../assets/ecom.png";
 import Project_04 from "../assets/Project_04.jpg";
+import Project_05 from "../assets/solar.png"; // Add the image for the new project
 
 const projects = [
   {
@@ -33,15 +34,24 @@ const projects = [
     link: "https://github.com/yourusername/project-three",
     image: Project_03,
   },
-  
+  {
+    title: "Rividco",
+    description:
+      "Developed and deployed the Rividco website, a platform dedicated to promoting solar and renewable energy solutions. Utilized React.js for the frontend, integrated backend APIs using Axios, implemented SEO best practices, deployed on Vercel and Netlify, and integrated Mailchimp for email marketing.",
+    technologies: ["React", "Node.js", "MongoDB", "SEO", "Mailchimp"],
+    link: "https://github.com/yourusername/rividco-frontend",
+    additionalLink: "https://github.com/yourusername/rividco-backend",
+    image: Project_05,
+  },
   {
     title: "Biodegradable Plate Maker from Food Waste",
     description:
       "A first-year group project where we developed a machine that produces biodegradable plates from food waste. Utilizing Arduino for hardware control, this project addresses environmental sustainability by converting waste into eco-friendly products.",
-    technologies: ["Arduino", "C++", "Hardware Prototyping"],
+    technologies: ["Arduino", "C++", "Proteus"],
     link: "https://github.com/yourusername/project-four",
     image: Project_04,
   },
+ 
 ];
 
 const Projects = () => {

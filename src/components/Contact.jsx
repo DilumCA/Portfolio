@@ -58,7 +58,7 @@ function Contact() {
     }
 
     setLoading(true);
-    emailjs.sendForm('service_2lxxaxo', 'template_kgc3lrb', form.current, 'rI3tVakFjB_gIVeHb')
+    emailjs.sendForm('service_cvkmetj', 'template_kgc3lrb', form.current, 'rI3tVakFjB_gIVeHb')
       .then((result) => {
         console.log(result.text);
         Swal.fire({

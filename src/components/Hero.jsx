@@ -50,21 +50,10 @@ const Hero = () => {
           </h1>
 
           <h3 className="text-xl md:text-2xl mb-4 italic">
-            Aspiring Software Engineer
+            Aspiring Quality Assuarance Engineer
           </h3>
           <p className="text-base md:text-lg mb-6 text-justify bg-opacity-5 bg-white p-4 rounded-lg shadow-lg leading-relaxed">
-            Welcome to my digital space! As an IT & Management undergraduate,
-            I'm passionate about leveraging technology to drive innovative
-            solutions. My journey has equipped me with a unique blend of
-            management acumen and technical prowess, allowing me to navigate
-            complex challenges with creativity and critical thinking. I thrive
-            in collaborative environments, where diverse ideas come together to
-            create exceptional outcomes. My experience in full-stack
-            development, especially within the MERN stack, has ignited my desire
-            to tackle real-world problems through code. I am committed to
-            lifelong learning, eager to explore the latest technologies, and
-            ready to contribute to projects that push boundaries and make a
-            meaningful impact in the tech landscape.
+            Welcome to my digital space! As an IT & Management undergraduate, I am driven by a passion for software quality and continuous improvement. My journey has equipped me with a strong foundation in testing methodologies, API validation, and test automation, alongside valuable experience in software development and Agile environments. I enjoy approaching challenges with a critical and analytical mindset, uncovering defects, validating requirements, and ensuring applications deliver seamless user experiences. My exposure to both development and testing has given me a broader understanding of the software lifecycle and the importance of quality at every stage. I am continuously expanding my QA expertise and look forward to contributing to the delivery of reliable, secure, and high-performing software solutions.
           </p>
 
           <div className="mt-8 flex flex-col md:flex-row items-center justify-between gap-4">

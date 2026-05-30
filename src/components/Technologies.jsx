@@ -1,23 +1,112 @@
 import React from 'react';
+import {
+  SiPostman,
+  SiCucumber,
+  SiSpring,
+  SiJavascript,
+  SiMongodb,
+  SiMysql,
+  SiGit,
+  SiGithub,
+  SiBitbucket,
+  SiReact,
+  SiNodedotjs,
+  SiHtml5,
+  SiCss3,
+  SiIntellijidea,
+  SiVisualstudiocode
+} from 'react-icons/si';
+
+import {
+  FaJava,
+  FaBug
+} from 'react-icons/fa';
+
 import { RiReactjsLine } from 'react-icons/ri';
-import { SiMongodb, SiSpring, SiMysql, SiHtml5, SiCss3, SiJavascript, SiBootstrap, SiMui, SiFigma, SiAdobephotoshop, SiAdobepremierepro, SiBlender, SiArduino, SiPostman } from 'react-icons/si';
-import { FaNodeJs, FaJava, FaGit, FaCuttlefish } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 
 const technologies = [
-  { name: 'Java', icon: <FaJava className='text-7xl' style={{ color: '#007396' }} /> },
-  { name: 'C', icon: <FaCuttlefish className='text-7xl' style={{ color: '#A8B9CC' }} /> },
-  { name: 'JavaScript', icon: <SiJavascript className='text-7xl' style={{ color: '#F7DF1E' }} /> },
-  { name: 'HTML', icon: <SiHtml5 className='text-7xl' style={{ color: '#E34F26' }} /> },
-  { name: 'CSS', icon: <SiCss3 className='text-7xl' style={{ color: '#1572B6' }} /> },
-  { name: 'ReactJS', icon: <RiReactjsLine className='text-7xl' style={{ color: '#61DAFB' }} /> },
-  { name: 'Bootstrap', icon: <SiBootstrap className='text-7xl' style={{ color: '#7952B3' }} /> },
-  { name: 'MUI', icon: <SiMui className='text-7xl' style={{ color: '#007FFF' }} /> },
-  { name: 'NodeJS', icon: <FaNodeJs className='text-7xl' style={{ color: '#339933' }} /> },
-  { name: 'SpringBoot', icon: <SiSpring className='text-7xl' style={{ color: '#6DB33F' }} /> },
-  { name: 'MongoDB', icon: <SiMongodb className='text-7xl' style={{ color: '#47A248' }} /> },
-  { name: 'MySQL', icon: <SiMysql className='text-7xl' style={{ color: '#4479A1' }} /> },
-  { name: 'Figma', icon: <SiFigma className='text-7xl' style={{ color: '#F24E1E' }} /> },
+  // Testing Tools
+  {
+    name: 'Postman',
+    icon: <SiPostman className='text-7xl' style={{ color: '#FF6C37' }} />
+  },
+  {
+    name: 'Cucumber',
+    icon: <SiCucumber className='text-7xl' style={{ color: '#23D96C' }} />
+  },
+  {
+    name: 'Serenity BDD',
+    icon: <FaBug className='text-7xl' style={{ color: '#6A5ACD' }} />
+  },
+
+  // Programming Languages
+  {
+    name: 'Java',
+    icon: <FaJava className='text-7xl' style={{ color: '#007396' }} />
+  },
+  {
+    name: 'JavaScript',
+    icon: <SiJavascript className='text-7xl' style={{ color: '#F7DF1E' }} />
+  },
+
+  // Backend & API
+  {
+    name: 'Spring Boot',
+    icon: <SiSpring className='text-7xl' style={{ color: '#6DB33F' }} />
+  },
+  {
+    name: 'Node.js',
+    icon: <SiNodedotjs className='text-7xl' style={{ color: '#339933' }} />
+  },
+
+  // Frontend
+  {
+    name: 'React',
+    icon: <SiReact className='text-7xl' style={{ color: '#61DAFB' }} />
+  },
+  {
+    name: 'HTML',
+    icon: <SiHtml5 className='text-7xl' style={{ color: '#E34F26' }} />
+  },
+  {
+    name: 'CSS',
+    icon: <SiCss3 className='text-7xl' style={{ color: '#1572B6' }} />
+  },
+
+  // Databases
+  {
+    name: 'MongoDB',
+    icon: <SiMongodb className='text-7xl' style={{ color: '#47A248' }} />
+  },
+  {
+    name: 'MySQL',
+    icon: <SiMysql className='text-7xl' style={{ color: '#4479A1' }} />
+  },
+
+  // Version Control
+  {
+    name: 'Git',
+    icon: <SiGit className='text-7xl' style={{ color: '#F05032' }} />
+  },
+  {
+    name: 'GitHub',
+    icon: <SiGithub className='text-7xl' />
+  },
+  {
+    name: 'Bitbucket',
+    icon: <SiBitbucket className='text-7xl' style={{ color: '#0052CC' }} />
+  },
+
+  // IDEs
+  {
+    name: 'VS Code',
+    icon: <SiVisualstudiocode className='text-7xl' style={{ color: '#007ACC' }} />
+  },
+  {
+    name: 'IntelliJ IDEA',
+    icon: <SiIntellijidea className='text-7xl' />
+  }
 ];
 
 const containerVariants = {

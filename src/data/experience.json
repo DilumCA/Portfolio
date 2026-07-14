@@ -1,0 +1,26 @@
+[
+  {
+    "id": "slt-mobitel-intern",
+    "company": "SLT-Mobitel",
+    "division": "Digital Platform Division",
+    "role": "Software Engineering Intern",
+    "period": "Apr 2025 – Oct 2025",
+    "duration": "6 months",
+    "location": "Colombo, Sri Lanka",
+    "type": "Internship",
+    "description": "Contributed to three enterprise-grade projects within SLT-Mobitel's Digital Platform Division: an advertisement module, an enterprise portal revamp, and a biometric authentication system. Worked across the full stack using React, Node.js, and MongoDB while gaining hands-on experience in API testing, security testing, Agile practices, and formal documentation.",
+    "highlights": [
+      "Conducted API testing using Postman across multiple microservices to validate endpoint contracts, status codes, and response payloads.",
+      "Performed security testing with OWASP ZAP, identifying and documenting potential vulnerabilities in the biometric authentication system.",
+      "Participated in Agile sprint ceremonies — daily standups, sprint planning, and retrospectives.",
+      "Authored technical documentation and handover notes for completed modules.",
+      "Collaborated with cross-functional teams during weekly review sessions with senior engineers."
+    ],
+    "technologies": ["React", "Node.js", "MongoDB", "Postman", "OWASP ZAP", "Git", "Bitbucket"],
+    "qaHighlights": [
+      "API testing with Postman (contract, status, payload validation)",
+      "Security testing with OWASP ZAP",
+      "Structured test case authoring for functional & regression cycles"
+    ]
+  }
+]

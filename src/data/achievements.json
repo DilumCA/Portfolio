@@ -1,0 +1,70 @@
+{
+  "competitions": [
+    {
+      "id": "idealize-2023",
+      "name": "IDEALIZE 2023",
+      "result": "Semifinalist",
+      "year": "2023",
+      "organizer": "University of Moratuwa",
+      "description": "Mobile app and web development competition. Reached the semifinal round competing against teams across Sri Lankan universities.",
+      "category": "Competition"
+    },
+    {
+      "id": "hackmoral-2024",
+      "name": "HackMoral 6.0",
+      "result": "Participant",
+      "year": "2024",
+      "organizer": "University of Moratuwa",
+      "description": "Annual hackathon hosted by the University of Moratuwa.",
+      "category": "Hackathon"
+    },
+    {
+      "id": "haxtreme-2024",
+      "name": "HaxTreme 3.0",
+      "result": "Participant",
+      "year": "2024",
+      "organizer": "University of Ruhuna",
+      "description": "Inter-university hackathon hosted by the University of Ruhuna.",
+      "category": "Hackathon"
+    },
+    {
+      "id": "moraspirit-best-pillar",
+      "name": "Moraspirit — Best Pillar Member",
+      "result": "Award",
+      "year": "2023",
+      "organizer": "Moraspirit, University of Moratuwa",
+      "description": "Recognised as the Best Pillar Member of the Video Editing & Streaming Pillar at Moraspirit, the student sports broadcast initiative of UoM.",
+      "category": "Award"
+    }
+  ],
+  "extracurriculars": [
+    {
+      "id": "moraspirit",
+      "name": "Moraspirit",
+      "role": "Video Editing & Streaming Pillar",
+      "description": "Active member of UoM's student sports broadcast team, contributing to video editing and live event streaming production.",
+      "category": "Student Organisation"
+    },
+    {
+      "id": "ieee-uom",
+      "name": "IEEE Student Branch UoM",
+      "role": "Financial Committee Member",
+      "description": "Served on the financial committee; participated in the NFB Championship as part of the IEEE Student Branch.",
+      "category": "Professional Society"
+    },
+    {
+      "id": "seds-mora",
+      "name": "SEDS Mora",
+      "role": "Member",
+      "description": "Member of the Students for the Exploration and Development of Space (SEDS) chapter at the University of Moratuwa.",
+      "category": "Student Organisation"
+    },
+    {
+      "id": "hiking-club",
+      "name": "Hiking Club UoM",
+      "role": "Member",
+      "description": "Active member of the University of Moratuwa Hiking Club.",
+      "category": "Sports & Recreation"
+    }
+  ]
+}

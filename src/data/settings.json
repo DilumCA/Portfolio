@@ -1,0 +1,34 @@
+{
+  "site": {
+    "title": "Dilum Andradi — QA Engineer",
+    "description": "Portfolio of Dilum Andradi, Associate Quality Assurance Engineer. Skilled in manual testing, API testing, and test automation.",
+    "url": "https://dilumandradi.dev",
+    "locale": "en_US"
+  },
+  "pages": {
+    "home": true,
+    "about": true,
+    "experience": true,
+    "projects": true,
+    "skills": true,
+    "resume": true,
+    "openSource": false,
+    "achievements": true,
+    "contact": true,
+    "certifications": false,
+    "blog": false,
+    "gallery": true
+  },
+  "nav": [
+    { "label": "Home", "path": "/" },
+    { "label": "About", "path": "/about" },
+    { "label": "Experience", "path": "/experience" },
+    { "label": "Projects", "path": "/projects" },
+    { "label": "Skills", "path": "/skills" },
+    { "label": "Achievements", "path": "/achievements" },
+    { "label": "Open Source", "path": "/open-source" },
+    { "label": "Resume", "path": "/resume" },
+    { "label": "Gallery", "path": "/gallery" },
+    { "label": "Contact", "path": "/contact" }
+  ]
+}

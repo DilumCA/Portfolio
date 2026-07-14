@@ -1,0 +1,107 @@
+[
+  
+  {
+    "id": "uom-batch-2026",
+    "src": "/gallery/UOM_Batch_photo_day_2026.jpg",
+    "alt": "University of Moratuwa batch photo day 2026",
+    "caption": "UOM Batch Photo Day 2026",
+    "category": "University"
+  },
+   {
+    "id": "ttms-03",
+    "src": "/gallery/TTMS_03.jpg",
+    "alt": "Tool Time Management System",
+    "caption": "Tool Time Management System – Knowledge Transfer Session at Gislaved Gummi Lanka",
+    "category": "Projects"
+  },
+   {
+    "id": "ttms-02",
+    "src": "/gallery/TTMS_02.jpg",
+    "alt": "Tool Time Management System",
+    "caption": "Tool Time Management System – Site Visit at Gislaved Gummi Lanka",
+    "category": "Projects"
+  },
+   {
+    "id": "ttms-01",
+    "src": "/gallery/TTMS_01.jpg",
+    "alt": "Tool Time Management System",
+    "caption": "Tool Time Management System – Site Visit at Gislaved Gummi Lanka",
+    "category": "Projects"
+  },
+  {
+    "id":"Slt-internsip-01",
+    "src": "/gallery/Slt-internship-01.jpg",
+    "alt": "SLT-Mobitel Internship",
+    "caption": "Software Engineering Internship at SLT-Mobitel",
+    "category": "Internship"
+  },
+   {
+    "id": "moraspirit-01",
+    "src": "/gallery/Moraspirit_01.jpg",
+    "alt": "Moraspirit event photo 1",
+    "caption": "Moraspirit – Best Pillar Member Award",
+    "category": "Achievements"
+  },
+  {
+    "id": "bhasha-lanka-03",
+    "src": "/gallery/Bhasha_Lanka_03.jpg",
+    "alt": "Bhasha Lanka event photo 3",
+    "caption": "Bhasha Lanka Project",
+    "category": "Projects"
+  },
+  {
+    "id": "bhasha-lanka-04",
+    "src": "/gallery/Bhasha_Lanka_04.jpg",
+    "alt": "Bhasha Lanka event photo 4",
+    "caption": "Bhasha Lanka Project",
+    "category": "Projects"
+  },
+  {
+    "id": "fit-sixers-01",
+    "src": "/gallery/FIT_Sixers_01.jpg",
+    "alt": "FIT Sixers cricket event",
+    "caption": "FIT Sixers Cricket Tournament",
+    "category": "Events"
+  },
+ 
+  {
+    "id": "haxtreme-02",
+    "src": "/gallery/HaXtreme_02.jpg",
+    "alt": "HaXtreme event photo 2",
+    "caption": "HaXtreme Hackathon",
+    "category": "Events"
+  },
+ 
+  {
+    "id": "moraspirit-02",
+    "src": "/gallery/Moraspirit_02.jpg",
+    "alt": "Moraspirit event photo 2",
+    "caption": "Moraspirit – Covering the Sri Lanka University Games",
+    "category": "Events"
+  },
+ 
+  {
+    "id": "venus-01",
+    "src": "/gallery/Venus_01.jpg",
+    "alt": "Venus event photo 1",
+    "caption": "Venus Hospital Visit",
+    "category": "Projects"
+  },
+ 
+  {
+    "id": "nibm-diploma",
+    "src": "/gallery/NIBM_Diploma.jpg",
+    "alt": "NIBM Diploma certificate",
+    "caption": "NIBM Advanced Diploma in Business Management",
+    "category": "Achievements"
+  },
+  
+  {
+    "id": "slrc-01",
+    "src": "/gallery/SLRC_01.jpg",
+    "alt": "Sri Lanka Robotics Challenge",
+    "caption": "Sri Lanka Rupavahini Corporation Visit",
+    "category": "Projects"
+  }
+
+]

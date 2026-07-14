@@ -1,0 +1,86 @@
+[
+  {
+    "category": "Testing Types",
+    "icon": "FaBug",
+    "skills": [
+      { "name": "Manual Testing", "proficiency": 85 },
+      { "name": "Functional Testing", "proficiency": 82 },
+      { "name": "Regression Testing", "proficiency": 78 },
+      { "name": "Smoke & Sanity Testing", "proficiency": 80 },
+      { "name": "Exploratory Testing", "proficiency": 75 },
+      { "name": "UI Testing", "proficiency": 75 },
+      { "name": "API Testing", "proficiency": 80 },
+      { "name": "BDD (Behaviour-Driven Development)", "proficiency": 72 }
+    ]
+  },
+  {
+    "category": "Testing Tools & Automation",
+    "icon": "FaFlask",
+    "skills": [
+      { "name": "Postman", "proficiency": 85 },
+      { "name": "Cucumber", "proficiency": 72 },
+      { "name": "Serenity BDD", "proficiency": 68 },
+      { "name": "REST Assured", "proficiency": 68 },
+      { "name": "JUnit", "proficiency": 70 },
+      { "name": "Maven", "proficiency": 70 }
+    ]
+  },
+  {
+    "category": "Programming",
+    "icon": "FaCode",
+    "skills": [
+      { "name": "Java", "proficiency": 75 },
+      { "name": "JavaScript", "proficiency": 78 },
+      { "name": "C", "proficiency": 60 }
+    ]
+  },
+  {
+    "category": "Web / Dev",
+    "icon": "FaGlobe",
+    "skills": [
+      { "name": "React", "proficiency": 78 },
+      { "name": "Node.js", "proficiency": 72 },
+      { "name": "Spring Boot", "proficiency": 68 },
+      { "name": "HTML", "proficiency": 85 },
+      { "name": "CSS", "proficiency": 80 }
+    ]
+  },
+  {
+    "category": "Databases",
+    "icon": "FaDatabase",
+    "skills": [
+      { "name": "MongoDB", "proficiency": 72 },
+      { "name": "MySQL", "proficiency": 68 }
+    ]
+  },
+  {
+    "category": "Version Control & DevOps",
+    "icon": "FaGitAlt",
+    "skills": [
+      { "name": "Git", "proficiency": 80 },
+      { "name": "GitHub", "proficiency": 80 },
+      { "name": "Bitbucket", "proficiency": 70 },
+      { "name": "AWS", "proficiency": 60 },
+      { "name": "CI/CD Pipelines", "proficiency": 58 }
+    ]
+  },
+  {
+    "category": "Tools & IDEs",
+    "icon": "FaTools",
+    "skills": [
+      { "name": "VS Code", "proficiency": 88 },
+      { "name": "IntelliJ IDEA", "proficiency": 75 },
+      { "name": "CodeBlocks", "proficiency": 65 }
+    ]
+  },
+  {
+    "category": "Soft Skills",
+    "icon": "FaUsers",
+    "skills": [
+      { "name": "Analytical Thinking & Problem Solving", "proficiency": 85 },
+      { "name": "Leadership", "proficiency": 78 },
+      { "name": "Teamwork", "proficiency": 88 },
+      { "name": "Effective Communication", "proficiency": 80 }
+    ]
+  }
+]

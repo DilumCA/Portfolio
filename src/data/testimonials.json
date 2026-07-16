@@ -1,0 +1,19 @@
+{
+  "_note": "These are real academic and professional references. Only publish this section on the live site with each referee's explicit permission.",
+  "references": [
+    {
+      "id": "ref-sashika",
+      "name": "K.M.S.J. Kumarasinghe",
+      "title": "Lecturer",
+      "company": "Faculty of IT, University of Moratuwa",
+      "email": "sashikaj@uom.lk"
+    },
+    {
+      "id": "ref-erandi",
+      "name": "Erandi Jayaweera",
+      "title": "Senior QA Engineer",
+      "company": "Intervest Software Technologies (Pvt) Ltd, Colombo",
+      "email": "erandi@intervest.lk"
+    }
+  ]
+}

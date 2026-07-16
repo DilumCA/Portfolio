@@ -1,0 +1,209 @@
+[
+  {
+    "id": "qa-suite-plant-nursery",
+    "title": "Automated QA Suite — Plant Nursery Web App",
+    "description": "BDD-based QA automation framework covering the Sales and Plant modules of a group web project. Authored Gherkin feature files for API and UI test scenarios including functional flows, role-based authorization, and negative/edge cases.",
+    "category": "QA Automation",
+    "technologies": ["Java", "Cucumber", "Serenity BDD", "REST Assured", "Maven", "JUnit"],
+    "role": "QA Engineer (Test Case Development)",
+    "teamType": "Group Project",
+    "githubUrl": "TODO: add repo URL",
+    "liveUrl": "",
+    "images": [],
+    "featured": true,
+    "status": "Completed",
+    "testBadge": "Automated",
+    "features": [
+      "Gherkin feature files for Sales and Plant module workflows",
+      "API test scenarios validating create, read, and delete operations",
+      "Negative test cases for unauthorized and bad-request (4xx) responses",
+      "Role-based authorization testing (admin vs. standard user flows)",
+      "Serenity BDD reports with step-level traceability",
+      "Maven build integration for repeatable test execution"
+    ],
+    "testingApproach": [
+      "Wrote BDD feature files in Gherkin covering happy-path and negative scenarios",
+      "Used REST Assured for HTTP-level API assertions (status codes, response bodies, headers)",
+      "Tested role-based access control — verified unauthorized endpoints correctly return 401/403",
+      "Validated CRUD operations on Sales and Plant entities end-to-end",
+      "Generated Serenity HTML reports for each test run for traceability"
+    ],
+    "architecture": "BDD automation framework built with Cucumber + Serenity BDD running on JUnit via Maven. REST Assured handles HTTP requests; Gherkin feature files drive test scenarios; Serenity produces living documentation reports.",
+    "challenges": [
+      "Designing reusable step definitions that could handle both positive and negative API scenarios without duplication",
+      "Ensuring test isolation so each scenario starts from a known state"
+    ],
+    "solutions": [
+      "Introduced a shared request context object passed between Cucumber steps to eliminate parameter duplication",
+      "Used dedicated setup/teardown hooks in Cucumber to seed and clean test data before/after each scenario"
+    ],
+    "lessonsLearned": [
+      "BDD's Gherkin layer makes test intent readable to non-engineers, improving collaboration with developers",
+      "Negative test cases often surface more bugs than happy-path tests — investing time there pays off",
+      "Serenity's living documentation significantly reduces the manual effort of test reporting"
+    ]
+  },
+  {
+    "id": "cloudmart-aws",
+    "title": "CloudMart — Cloud-Native E-Commerce Platform on AWS",
+    "description": "Production-grade microservices e-commerce platform deployed on AWS EKS across a custom multi-AZ VPC. Responsibilities covered network design, infrastructure-as-code with Terraform, Architecture Decision Records, disaster recovery strategy, and FinOps analysis.",
+    "category": "Cloud / DevOps",
+    "technologies": ["AWS EKS", "AWS VPC", "AWS IAM", "Terraform", "Docker", "Kubernetes"],
+    "role": "Cloud Infrastructure Engineer (Networking, IaC & DR)",
+    "teamType": "Group Project",
+    "githubUrl": "TODO: add repo URL",
+    "liveUrl": "",
+    "images": ["ecom"],
+    "featured": false,
+    "status": "Completed",
+    "testBadge": "Manual",
+    "features": [
+      "Five containerized microservices across a custom multi-AZ VPC",
+      "Terraform IaC for reproducible infrastructure provisioning",
+      "Architecture Decision Records (ADRs) documenting key design choices",
+      "Disaster-recovery strategy with defined RTO and RPO targets",
+      "Cost and FinOps analysis for the AWS deployment",
+      "IAM roles and policies following least-privilege principle"
+    ],
+    "testingApproach": [
+      "Infrastructure validation — verified Terraform plans before apply and reviewed state files post-deployment",
+      "Network connectivity tests across VPC subnets and availability zones",
+      "IAM policy auditing to ensure least-privilege access per service",
+      "Disaster recovery drills — simulated AZ failure and measured recovery against defined RTO"
+    ],
+    "architecture": "Five Docker-containerized services orchestrated on AWS EKS within a custom multi-AZ VPC. Terraform manages all AWS resources. Traffic routed via Application Load Balancer; services communicate via internal VPC DNS.",
+    "challenges": [
+      "Designing VPC CIDR blocks and subnet routing to support multi-AZ failover without IP conflicts",
+      "Keeping Terraform state consistent across team members working on the same infrastructure"
+    ],
+    "solutions": [
+      "Used a carefully planned CIDR allocation scheme with non-overlapping /24 subnets per AZ",
+      "Stored Terraform state in an S3 backend with DynamoDB state locking to prevent concurrent modifications"
+    ],
+    "lessonsLearned": [
+      "Infrastructure-as-code pays dividends immediately — rebuilding the environment for testing took minutes, not hours",
+      "Defining RTO/RPO targets before implementation forces concrete decisions about replication and failover that would otherwise be deferred",
+      "FinOps analysis during design (not after) prevents cost surprises in production"
+    ]
+  },
+  {
+    "id": "tool-time-management",
+    "title": "Tool Time Management System — Gislaved Gummi Lanka",
+    "description": "Centralized web platform for the mold-making unit at Gislaved Gummi Lanka (Pvt) Ltd with role-based access for managers, machine operators, and admins. Replaced Excel-based tracking with real-time operational insights and structured reporting.",
+    "category": "Full-Stack",
+    "technologies": ["React", "MUI", "MongoDB", "Spring Boot"],
+    "role": "Full-Stack Developer (Individual Project)",
+    "teamType": "Individual Project",
+    "githubUrl": "TODO: add repo URL",
+    "liveUrl": "",
+    "images": ["ttms"],
+    "featured": true,
+    "status": "Completed",
+    "testBadge": "Manual",
+    "features": [
+      "Role-based access control for managers, machine operators, and admins",
+      "Mold detail tracking replacing manual Excel sheets",
+      "Structured reporting and real-time operational dashboard",
+      "Data entry forms with validation for mold lifecycle events",
+      "Audit trail for all data modifications"
+    ],
+    "testingApproach": [
+      "Manual functional testing of all role-based access flows (admin vs. operator vs. manager views)",
+      "Form validation testing — boundary values and invalid input scenarios",
+      "End-to-end workflow testing: create mold entry → update → generate report",
+      "Cross-browser compatibility checks on Chrome and Edge"
+    ],
+    "architecture": "React + Material UI frontend, Spring Boot REST API backend, MongoDB document store. Role-based authorization enforced at the API layer via JWT tokens.",
+    "challenges": [
+      "Translating informal Excel-based workflows into structured data models that operational staff could adopt quickly"
+    ],
+    "solutions": [
+      "Conducted requirement gathering sessions with operators to map existing workflows, then designed forms that mirrored familiar column structures from the Excel sheets"
+    ],
+    "lessonsLearned": [
+      "End-user involvement during requirements gathering is critical for enterprise tools — the initial data model assumptions were wrong and had to be revised after the first demo"
+    ]
+  },
+  {
+    "id": "interns-management-system",
+    "title": "Interns Management System (IMS)",
+    "description": "Group project building a profile management and evaluation platform for university interns. Handled profile management, CV uploads, task tracking, intern evaluations, and role-based permissions. Led the team as Team Leader.",
+    "category": "Full-Stack",
+    "technologies": ["React", "Node.js", "MongoDB", "MUI"],
+    "role": "Team Leader & Full-Stack Developer",
+    "teamType": "Group Project (2023–2024)",
+    "githubUrl": "https://github.com/Tharusha-2000/InternManagementSystemFrontend-using-MERN-stack",
+    "liveUrl": "",
+    "images": ["ims"],
+    "featured": false,
+    "status": "Completed",
+    "testBadge": "Manual",
+    "features": [
+      "Intern profile management with CV upload capability",
+      "Task assignment and progress tracking per intern",
+      "Evaluation forms and scoring for intern performance reviews",
+      "Role-based permissions (intern, mentor, admin)",
+      "Reporting dashboard for program coordinators"
+    ],
+    "testingApproach": [
+      "Manual testing of all CRUD operations on intern profiles and task records",
+      "Role-based access testing — verified each role saw only permitted UI sections",
+      "File upload testing for CV attachments (valid formats, size limits, invalid file types)",
+      "Integration testing of evaluation form submissions and score aggregation"
+    ],
+    "architecture": "MERN stack: React + MUI frontend, Node.js/Express REST API, MongoDB document store. Built under supervision of 99x.",
+    "challenges": [
+      "Coordinating feature development across a group of five developers on overlapping modules",
+      "Designing an evaluation scoring model flexible enough for different internship programs"
+    ],
+    "solutions": [
+      "Adopted a feature-branch Git workflow with pull request reviews to keep main stable",
+      "Used a configurable scoring rubric stored in MongoDB so coordinators could adjust weights without code changes"
+    ],
+    "lessonsLearned": [
+      "Team leadership means unblocking others first — context-switching to review PRs and resolve merge conflicts quickly was more valuable than writing features",
+      "Clear API contracts between frontend and backend teams prevent last-minute integration pain"
+    ]
+  },
+  {
+    "id": "biodegradable-plate-maker",
+    "title": "Biodegradable Plate-Making Machine from Food Waste",
+    "description": "Level 1 hardware project — an Arduino Mega-controlled machine converting food waste into biodegradable plates through automated blending, compression, and heating stages. Addressed environmental sustainability through accessible manufacturing.",
+    "category": "Hardware / IoT",
+    "technologies": ["C", "Arduino Mega", "Proteus 8.0", "EasyEDA", "Blender (3D)"],
+    "role": "Hardware Developer & Programmer",
+    "teamType": "Group Project (2022–2023)",
+    "githubUrl": "TODO: add repo URL",
+    "liveUrl": "",
+    "images": [],
+    "featured": false,
+    "status": "Completed",
+    "testBadge": "Manual",
+    "features": [
+      "Automated blending unit for food waste processing",
+      "Compression stage with pressure control",
+      "Heating element with temperature regulation",
+      "Arduino Mega microcontroller orchestrating all stages",
+      "Circuit simulation in Proteus 8.0 before physical build"
+    ],
+    "testingApproach": [
+      "Circuit simulation in Proteus 8.0 to validate logic before physical assembly",
+      "Unit testing each hardware stage independently (blender, compression, heater) before full integration",
+      "Temperature and timing calibration runs with measurement logging",
+      "N/A for software-based automated testing — hardware system tested through physical operation"
+    ],
+    "architecture": "Arduino Mega as the central controller managing three sequential hardware stages via relay modules and sensor feedback loops. Circuit designed in EasyEDA, simulated in Proteus.",
+    "challenges": [
+      "Achieving consistent compression force without over-engineering the mechanical component",
+      "Managing heat distribution evenly across the plate mold"
+    ],
+    "solutions": [
+      "Iterative physical prototyping with measurement at each compression cycle to find the optimal dwell time",
+      "Added a thermocouple feedback loop to the Arduino to maintain target temperature within a tolerance band"
+    ],
+    "lessonsLearned": [
+      "Simulating circuits before physical build saved significant time and material — bugs found in Proteus cost nothing to fix",
+      "Hardware testing requires a different mindset: you cannot mock a relay — you must instrument and measure the real system"
+    ]
+  }
+]

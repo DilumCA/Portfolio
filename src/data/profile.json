@@ -1,0 +1,43 @@
+{
+  "name": "Dilum Andradi",
+  "title": "Quality Assurance Engineer",
+  "tagline": "I find bugs before your users do.",
+  "summary": "Detail-oriented IT & Management undergraduate at the University of Moratuwa with experience in MERN and Spring Boot development. Skilled in manual testing, API testing using Postman, and writing structured test cases. Seeking an Associate QA Engineer role to contribute to software quality, test automation, and reliable user experiences.",
+  "availability": "Open to QA Engineer roles",
+  "location": "Avissawella, Sri Lanka",
+  "email": "dilumandradi@gmail.com",
+  "phone": "+94 77 697 3686",
+  "languages": ["Sinhala", "English", "Japanese", "German"],
+  "education": [
+    {
+      "degree": "B.Sc. (Hons) in Information Technology and Management",
+      "institution": "Faculty of IT, University of Moratuwa",
+      "period": "2022 – 2026",
+      "gpa": "3.26",
+      "current": true
+    },
+    {
+      "degree": "Advanced Diploma in Business Management",
+      "institution": "National Institute of Business Management (NIBM)",
+      "period": "2021 – 2022",
+      "grade": "Distinction"
+    },
+    {
+      "degree": "G.C.E. Advanced Level",
+      "institution": "R/Eheliyagoda Central College",
+      "period": "2017 – 2020",
+      "subjects": [
+        { "name": "Physics", "grade": "C" },
+        { "name": "Chemistry", "grade": "B" },
+        { "name": "Combined Maths", "grade": "C" },
+        { "name": "General English", "grade": "B" }
+      ]
+    }
+  ],
+  "values": [
+    "Precision over speed — quality ships on time, defects don't.",
+    "Understand the build to break it better.",
+    "Clear communication between dev, QA, and stakeholders.",
+    "Continuous learning in a field that never stops moving."
+  ]
+}

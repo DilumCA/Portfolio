@@ -1,0 +1,20 @@
+[
+  {
+    "platform": "LinkedIn",
+    "url": "https://www.linkedin.com/in/dilumandradi/",
+    "icon": "FaLinkedin",
+    "label": "linkedin.com/in/dilumandradi"
+  },
+  {
+    "platform": "GitHub",
+    "url": "https://github.com/DilumCA",
+    "icon": "FaGithub",
+    "label": "github.com/DilumCA"
+  },
+  {
+    "platform": "Email",
+    "url": "mailto:dilumandradi@gmail.com",
+    "icon": "FaEnvelope",
+    "label": "dilumandradi@gmail.com"
+  }
+]
